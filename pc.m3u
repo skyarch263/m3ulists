@@ -1,0 +1,7 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Parking Lot East" tvg-logo="https://imgur.com/securityCam.png" group-title="Security Cameras", Parking Lot East
+rtsp://192.168.1.15:8554/mystream
+#EXTINF:-1 tvg-name="Parking Lot West" tvg-logo="https://imgur.com/securityCam.png" group-title="Security Cameras", Parking Lot West
+rtmp://192.168.1.15:1935/mystream/
+#EXTINF:-1 tvg-name="Back Door" tvg-logo="https://imgur.com/securityCam.png" group-title="Security Cameras", Back Door
+hls://192.168.1.15:8888/mystream/
